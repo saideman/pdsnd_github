@@ -2,10 +2,10 @@
 Project created on 10-04-2020
 
 ### Project Title
-Bikeshare Analysis
+####Bikeshare Analysis
 
 ### Description
-This project analyzes raw bike share data from _Chicago_, _New York_ and _Washington_.  It returns some simple statistics based on user input.
+This project analyzes raw bike share data from _**Chicago**_, _**New York**_ and _**Washington**_.  It returns some simple statistics based on user input.
 
 ### Files used
 The main code is contained in **bikeshare.py** and the program uses **csv files** containing the raw data.
@@ -13,7 +13,7 @@ The main code is contained in **bikeshare.py** and the program uses **csv files*
 ### Credits
 This project was inspired by Udacity.
 Specific assistance on functions and methods was obtained from:
-https://pandas.pydata.org/docs/user_guide/index.html
-https://www.w3schools.com/python/
-https://www.geeksforgeeks.org/python-programming-language/?ref=leftbar
+*https://pandas.pydata.org/docs/user_guide/index.html
+*https://www.w3schools.com/python/
+*https://www.geeksforgeeks.org/python-programming-language/?ref=leftbar
 
