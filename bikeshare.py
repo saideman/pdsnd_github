@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 MONTHS = [ 'january','february','march','april','may','june','all' ]
 DAYS_OF_WEEK = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']
 
-def sec_convert(seconds): 
+def convert_from_seconds(seconds): 
     days = seconds // (86400)
     seconds = seconds % (86400)
     hours = seconds // 3600
@@ -134,11 +134,11 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # Display total travel time
-    rent_time = sec_convert(df['Trip Duration'].sum())
+    rent_time = convert_from_seconds(df['Trip Duration'].sum())
     print('Total usage time for all bikes was {} days, {} hours, {} minutes and {} seconds'.format(*rent_time))
           
     # Display mean travel time
-    avg_rent_time = sec_convert(df['Trip Duration'].mean())
+    avg_rent_time = convert_from_seconds(df['Trip Duration'].mean())
     print('The average time of each ride was {2} minutes and {3} seconds'.format(*avg_rent_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
