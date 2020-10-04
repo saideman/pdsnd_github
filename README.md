@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+Project created on 10-04-2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Analysis
 
 ### Description
-Describe what your project is about and what it does
+This project analyzes raw bike share data from _Chicago_, _New York_ and _Washington_.  It returns some simple statistics based on user input.
 
 ### Files used
-Include the files used
+The main code is contained in **bikeshare.py** and the program uses **csv files** containing the raw data.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project was inspired by Udacity.
+Specific assistance on functions and methods was obtained from:
+https://pandas.pydata.org/docs/user_guide/index.html
+https://www.w3schools.com/python/
+https://www.geeksforgeeks.org/python-programming-language/?ref=leftbar
 
