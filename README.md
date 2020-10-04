@@ -16,4 +16,5 @@ Specific assistance on functions and methods was obtained from:
 *https://pandas.pydata.org/docs/user_guide/index.html
 *https://www.w3schools.com/python/
 *https://www.geeksforgeeks.org/python-programming-language/?ref=leftbar
+*https://guides.github.com/features/mastering-markdown/
 
