@@ -182,7 +182,10 @@ def user_stats(df):
     
     
 def show_raw_data(df):
-    """Displays raw data in blocks of 5 rows while user input is yes."""
+    """
+    Dispays first five rows of data if user input is yes then 
+    displays raw data in blocks of 5 rows while user input is yes.
+    """
 
     show_data = input('\nWould you like to see the first five rows of raw data? Enter yes or no. ').lower()
     if show_data == 'yes':
